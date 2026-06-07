@@ -19,15 +19,13 @@ This project analyzes historical salary data and predicts an expected salary ran
 
 ## 📊 Dataset
 The dataset contains information related to:
-- Age  
 - Education Level
 - Education Degree
 - Specialization  
 - Years of Experience  
-- Job Title  
-- Industry  
-- Skills  
-- Location  
+- Job Sector  
+- Company Size    
+- City Tier  
 - Job Role  
 - Salary (Target Variable)  
 
