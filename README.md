@@ -1,4 +1,4 @@
-# 💼 Salary Prediction for Indian Job Market
+# 💼 HR Analytics Dashboard
 
 A Machine Learning-based Salary Prediction System designed to estimate salaries in the Indian job market based on candidate attributes such as education, experience, job role, skills, location, and other relevant factors.
 
@@ -44,5 +44,12 @@ Evaluated using regression metrics:
 - **pandas / NumPy** (Data handling)  
 - **Streamlit / Flask** (Deployment & UI)  
 - **joblib** (Model persistence)  
+
+---
+
+## 🖼️ Web Application and Dashboard Preview
+![Dashboard Screenshot](dashboard/HR_Analytics.png)
+*(Link to interactive dashboard: (dashboard/HR_Analytics_Dashboard.xlsx))*
+*(Link to interactive web application: (https://gourendra999-salary-prediction-model-app-c6ivti.streamlit.app/))*
 
 

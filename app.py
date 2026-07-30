@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 st.set_page_config(
-    page_title="Salary Predictor India",
+    page_title="HR Analytics Dashboard",
     page_icon="💼",
     layout="wide",
 )
