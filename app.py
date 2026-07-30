@@ -174,7 +174,7 @@ def load_model():
 
 model = load_model()
 
-st.markdown('<div class="main-title">💼 Salary Prediction System</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">💼 HR Analytics Dashboard</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-text">AI-powered Indian Salary Estimator</div>', unsafe_allow_html=True)
 
 # ---------------- SIDEBAR INPUT ----------------
