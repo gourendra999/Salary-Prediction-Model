@@ -1,0 +1,59 @@
+{
+  "selected_model": "Histogram Gradient Boosting",
+  "test_rows": 2200,
+  "MAE_INR": 197355.28107265453,
+  "RMSE_INR": 275364.274136476,
+  "R2": 0.9464102808059474,
+  "MAPE_percent": 8.31567412712697,
+  "feature_count": 13,
+  "training_rows": 8800,
+  "raw_features": [
+    "Experience (Years)",
+    "Education Degree",
+    "Specialization",
+    "Education Level",
+    "Job Sector",
+    "Job Role",
+    "Company Size",
+    "City Tier"
+  ],
+  "engineered_features": [
+    "Experience (Years)",
+    "Experience Squared",
+    "Education Degree",
+    "Specialization",
+    "Education Level",
+    "Job Sector",
+    "Job Role",
+    "Company Size",
+    "City Tier",
+    "Career Stage",
+    "Education-Sector",
+    "Sector-Role",
+    "Company-Market"
+  ],
+  "target": "Salary (INR)",
+  "target_transform": "log1p / expm1",
+  "rare_category_min_frequency": 5,
+  "validation_candidates": [
+    {
+      "Model": "Histogram Gradient Boosting",
+      "Validation MAE (\u20b9)": 198391.58587162461,
+      "Validation RMSE (\u20b9)": 281855.92305148765,
+      "Validation R\u00b2": 0.9455743920798012
+    },
+    {
+      "Model": "Extra Trees",
+      "Validation MAE (\u20b9)": 285617.91824347666,
+      "Validation RMSE (\u20b9)": 401874.1805543805,
+      "Validation R\u00b2": 0.8893556691323206
+    },
+    {
+      "Model": "Random Forest",
+      "Validation MAE (\u20b9)": 290712.82739334647,
+      "Validation RMSE (\u20b9)": 416163.717450196,
+      "Validation R\u00b2": 0.8813473654156093
+    }
+  ],
+  "notes": "Estimate is decision support, not a validated salary confidence interval. Evaluate fairness and dataset coverage before operational HR use."
+}
