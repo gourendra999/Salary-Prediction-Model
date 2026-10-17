@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-from salary_features import RAW_FEATURES, add_engineered_features, city_to_tier
+from scripts.salary_features import RAW_FEATURES, add_engineered_features, city_to_tier
 
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR / "models" / "salary_model.pkl"
